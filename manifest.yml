@@ -1,0 +1,16 @@
+applications:
+- name:  cdts-eureka-client
+  disk: 1024M
+  command: node app.js
+  memory: 256M
+  instances: 1
+  domain: bmxnp.appl.kp.org  
+env:
+  platform: Bluemix
+  organization: Kaiser
+  authdomain: cs.msds.kp.org
+  serverdomain: bmxnp.appl.kp.org
+  vipAddress: cdts-eureka-client
+  eurekaServer: cdts-eureka.bmxnp.appl.kp.org
+  eurekaPort: 80
+  statusUrl: http://cdts-eureka-client.bmxnp.appl.kp.org/info

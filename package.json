@@ -1,0 +1,14 @@
+{
+  "name": "cdts-eureka-client",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cfenv": "1.0.3",
+    "eureka-js-client": "4.1.2",
+    "express": "4.11.2",
+    "cors": "2.8.1"
+  }
+}
